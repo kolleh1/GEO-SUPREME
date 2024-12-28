@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEO Supreme U15 & U17 Membership Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <img src="images/download.jpg" alt="Team Logo" class="team-logo">
+            <div>
+                <label for="passport-photo">DEC 27, 2019</label>
+                <img src="images/download.jpg" alt="Passport Photo" class="passport-photo">
+            </div>
+        </div>
+
+        <h1 style="text-align: center;">GEO Supreme U15 & U17 Membership Form</h1>
+
+        <form action="https://formspree.io/f/myzzwoje" method="POST">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="address">Home Address:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="nationality">Nationality:</label>
+                <input type="text" id="nationality" name="nationality">
+            </div>
+            <div class="form-group">
+                <label for="school">School Attended:</label>
+                <input type="text" id="school" name="school">
+            </div>
+            <div class="form-group">
+                <label for="guardian-name">Parent/Guardian Name:</label>
+                <input type="text" id="guardian-name" name="guardian-name" required>
+            </div>
+            <div class="form-group">
+                <label for="guardian-phone">Parent/Guardian Phone Number:</label>
+                <input type="tel" id="guardian-phone" name="guardian-phone" required>
+            </div>
+            <div class="form-group">
+                <label for="guardian-email">Parent/Guardian Email:</label>
+                <input type="email" id="guardian-email" name="guardian-email">
+            </div>
+            <div class="form-group">
+                <label for="referral">How Did You Hear About the Team?</label>
+                <input type="text" id="referral" name="referral">
+            </div>
+
+            <div class="terms">
+                <h3>Terms and Conditions</h3>
+                <p>By signing this form, you agree to abide by all rules and regulations of GEO Supreme Football Club. The club reserves the right to terminate membership for any violations.</p>
+
+                <h3>Oath</h3>
+                <p>I, the undersigned, pledge to uphold the values and integrity of GEO Supreme Football Club and commit to being a responsible and disciplined member.</p>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="signature-section">
+                <div>
+                    <p>Player's Signature:</p>
+                    <div class="signature-box"></div>
+                </div>
+                <div>
+                    <p>Parent's Signature:</p>
+                    <div class="signature-box"></div>
+                </div>
+                <div>
+                    <p>Coach's Signature:</p>
+                    <div class="signature-box"></div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
